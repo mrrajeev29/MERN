@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enter the following details for Signup</h1>
+    <form>
+        <label>First Name</label>
+        <input type="text"/>
+        <br />
+        <br />
+        <label>Last Name</label>
+        <input type="text"/>
+        <br />
+        <br />
+        <label>Phone </label>
+        <input type="number" />
+        <br />
+        <br />
+        <label>Email</label>
+        <input type="email">
+        <br />
+        <br />
+        <label>Gender</label>
+        <input type="radio" name="gen">Male
+        <input type="radio" name="gen">Female
+        <br />
+        <br />
+        <label>Create Password</label>
+        <input type="password">
+        <br />
+        <br />
+        <label>Confirm Password</label>
+        <input type="password">
+        <br />
+        <br />
+        <label>Country</label>
+        <input type="text">
+        <br />
+        <br />
+        <label>Tell me about yourself</label>
+        <textarea></textarea>
+        <br />
+        <br />
+        <label>You are signing in as</label>
+        <select>
+            <option>--Select--</option>
+            <option>Student</option>
+            <option>Faculty</option>
+            <option>Guests</option>
+        </select>
+        <br />
+        <br />
+        <label>I'm not a robot</label>
+        <input type="checkbox">
+        <br/>
+        <br/>
+        <label>SignUp</label>
+        <input type="submit">
+        <br />
+        <br />
+        
+    </form>
+</body>
+</html>
